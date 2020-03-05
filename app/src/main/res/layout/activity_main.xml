@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Numero 1"
+        />
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Numero 2"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/suma"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Sumar"
+            android:textSize="15sp"/>
+        <Button
+            android:id="@+id/resta"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Restar"
+            android:textSize="15sp"/>
+        <Button
+            android:id="@+id/multi"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Multi"
+            android:textSize="15sp"/>
+        <Button
+            android:id="@+id/div"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Div"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="00"
+        android:gravity="center"
+        android:textSize="120sp"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
